@@ -1,0 +1,7 @@
+numpy
+matplotlib==1.*
+pandas
+
+
+#### ignore ###
+#matplotlib==3.*
