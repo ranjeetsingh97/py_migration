@@ -1,9 +1,19 @@
-The requirements.txt file should list all Python libraries that your notebooks depend on, and they will be installed using:
+# How to migrate python project from lower python version to higher python version ?
 
-pip install -r requirements.txt
+## topic to be covered
+* how to add/update packages in any existing python environment?
+* how to resolve package conflict while moving to higher python version?
+* How python's official package documentation help in understanding which python version will get install and work in other python version  
+* How to migrate python2 scripts to python3 via futurize 
 
-If you do specify strict versions, it is important to do so for all your dependencies, not just direct dependencies. Strictly specifying only some dependencies is a recipe for environments breaking over time.
 
-pip-compile is a handy tool for combining loosely specified dependencies with a fully frozen environment.
-You write a requirements.in with just the dependencies you need and pip-compile will generate a requirements.txt with all the strict packages and versions that would come from installing that package right now.
-That way, you only need to specify what you actually know you need, but you also get a snapshot of your environment.
+
+
+## resource link
+- git repo link:- [link](https://github.com/ranjeetsingh97/py_migration)
+- futurize tool:- [link](https://python-future.org/futurize.html)
+- Makefile uses:- [link](https://earthly.dev/blog/python-makefile/)
+
+
+
+  
